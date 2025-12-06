@@ -19,7 +19,7 @@ bot.onText(/\/start/, (msg) => {
           ["💳 Payment Issue"],
           ["💬 Chat with an Agent"],
         ],
-        // resize_keyboard: true,
+        resize_keyboard: true,
       },
     }
   );
